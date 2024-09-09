@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the container to cover the entire viewport */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Style the image */
+.centered-image {
+    max-width: 25%; /* Prevent image from overflowing on small screens */
+    max-height: 25vh; /* Prevent image from being taller than the viewport */
+    object-fit: contain; /* Maintain aspect ratio */
+}
